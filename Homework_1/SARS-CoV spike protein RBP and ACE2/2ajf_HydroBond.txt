@@ -1,0 +1,241 @@
+Model 0 (2ajf_rev.pdb) appears to be a protein without secondary structure assignments.
+Automatically computing assignments using 'ksdssp' and parameter values:
+  energy cutoff -0.5
+  minimum helix length 3
+  minimum strand length 3
+Use command 'help ksdssp' for more information.
+No SEQRES records for 2ajf_rev.pdb (#0) chain A; guessing terminii instead
+No SEQRES records for 2ajf_rev.pdb (#0) chain E; guessing terminii instead
+Chain-initial residues that are actual N terminii: SER 19.A, CYS 323.E
+Chain-initial residues that are not actual N terminii: 
+Chain-final residues that are actual C terminii: GLU 502.E
+Chain-final residues that are not actual C terminii: ASP 615.A
+774 hydrogen bonds
+Removing spurious proton from 'C' of ASP 615.A
+Hydrogens added
+
+Allowed overlap: -0.4
+H-bond overlap reduction: 0
+Ignore contacts between atoms separated by 4 bonds or less
+Detect intra-residue contacts: False
+Detect intra-molecule contacts: True
+
+137 contacts
+atom1  atom2  overlap  distance
+LYS 353.A O     GLY 488.E H     0.894  1.586
+TYR 41.A OH     THR 486.E HG1   0.579  1.921
+LYS 353.A O     GLY 488.E N     0.556  2.549
+ASP 38.A OD2    TYR 436.E HH    0.376  2.104
+TYR 83.A OH     ASN 473.E ND2   0.364  2.761
+GLN 42.A OE1    TYR 436.E HH    0.333  2.147
+GLU 329.A OE2   ARG 426.E HH22  0.332  2.148
+ASN 330.A ND2   THR 486.E O     0.323  2.782
+TYR 83.A OH     ASN 473.E HD22  0.238  2.262
+GLN 42.A OE1    TYR 436.E OH    0.236  2.744
+ASN 330.A HD21  THR 486.E O     0.204  2.276
+TYR 41.A OH     THR 486.E OG1   0.172  2.828
+GLN 24.A OE1    ASN 473.E ND2   0.170  2.935
+GLU 329.A OE2   ARG 426.E NH2   0.159  2.946
+LYS 353.A HD3   THR 487.E CG2   0.111  2.589
+TYR 41.A HE2    TYR 484.E CB    0.080  2.620
+LYS 353.A C     TYR 491.E CD1   0.073  3.327
+TYR 41.A HE2    TYR 484.E CG    0.062  2.638
+LYS 353.A HE2   GLY 482.E O     0.059  2.421
+LYS 353.A O     THR 487.E HB    0.053  2.427
+ASP 38.A CG     TYR 436.E HH    0.018  2.682
+MET 82.A SD     LEU 472.E HD23  0.004  2.778
+GLN 42.A CG     TYR 484.E OH    -0.016  3.216
+ASP 38.A OD2    TYR 436.E OH    -0.036  3.016
+ARG 357.A NH1   THR 486.E HB    -0.041  2.666
+ASP 355.A HB2   THR 487.E HA    -0.042  2.042
+GLU 37.A OE1    TYR 491.E HH    -0.056  2.536
+TYR 83.A OH     ASN 473.E CG    -0.059  3.259
+ASP 38.A OD1    TYR 436.E OH    -0.062  3.042
+GLN 24.A OE1    ASN 473.E HD22  -0.064  2.544
+LYS 353.A C     GLY 488.E H     -0.067  2.767
+LYS 353.A HD2   TYR 491.E CD2   -0.073  2.773
+MET 82.A SD     LEU 472.E HD13  -0.084  2.866
+LYS 31.A HG3    TYR 475.E HD2   -0.097  2.097
+LYS 353.A HA    TYR 491.E CE1   -0.099  2.799
+TYR 83.A HH     TYR 475.E OH    -0.105  2.605
+GLY 354.A C     GLY 488.E N     -0.115  3.440
+GLN 42.A HG3    TYR 484.E HH    -0.116  2.116
+MET 82.A SD     LEU 472.E CD2   -0.120  3.602
+ASN 330.A OD1   THR 486.E HG22  -0.124  2.604
+GLY 354.A O     GLY 488.E CA    -0.130  3.310
+LYS 353.A HB2   THR 487.E HB    -0.137  2.137
+GLU 329.A CD    ARG 426.E HH22  -0.139  2.839
+ASP 38.A OD1    TYR 436.E HH    -0.143  2.623
+LYS 353.A CB    THR 487.E HG22  -0.145  2.845
+LYS 353.A CD    THR 487.E CG2   -0.145  3.545
+HIS 34.A NE2    TYR 440.E HH    -0.147  2.772
+GLN 42.A HG3    TYR 484.E OH    -0.153  2.653
+LYS 353.A HD3   THR 487.E HG23  -0.157  2.157
+LYS 353.A HD3   THR 487.E HG22  -0.158  2.158
+LYS 353.A CA    TYR 491.E CD1   -0.159  3.559
+LYS 353.A HA    TYR 491.E CD1   -0.167  2.867
+THR 27.A HG22   LEU 443.E HD21  -0.168  2.168
+LYS 353.A O     THR 487.E CB    -0.172  3.352
+GLY 354.A C     GLY 488.E CA    -0.173  3.573
+TYR 41.A HE2    TYR 484.E HB3   -0.175  2.175
+HIS 34.A NE2    TYR 440.E OH    -0.181  3.306
+MET 82.A SD     LEU 472.E CD1   -0.187  3.669
+ASN 330.A HD22  THR 486.E O     -0.187  2.667
+GLY 354.A C     GLY 488.E H     -0.187  2.887
+TYR 41.A OH     THR 487.E N     -0.205  3.330
+ASP 38.A CG     TYR 436.E OH    -0.212  3.412
+LYS 353.A HA    TYR 491.E CZ    -0.213  2.913
+LYS 353.A O     GLY 488.E CA    -0.218  3.398
+LYS 31.A HE2    TYR 475.E HE2   -0.218  2.218
+TYR 41.A HH     THR 486.E HG1   -0.221  2.221
+LYS 353.A CB    THR 487.E CG2   -0.225  3.625
+TYR 41.A CE2    TYR 484.E CG    -0.226  3.626
+LYS 353.A CB    THR 487.E HB    -0.231  2.931
+GLN 42.A CG     TYR 484.E HH    -0.241  2.941
+THR 27.A CG2    TYR 475.E CE1   -0.247  3.647
+ASN 330.A CG    THR 486.E HG22  -0.259  2.959
+ARG 357.A HH12  THR 486.E HB    -0.260  2.260
+ASN 330.A ND2   THR 486.E CB    -0.262  3.587
+HIS 34.A CD2    TYR 440.E OH    -0.264  3.464
+PHE 28.A N      TYR 475.E HH    -0.265  2.890
+ASN 330.A HD21  THR 486.E C     -0.267  2.967
+THR 27.A HG23   TYR 475.E CE1   -0.272  2.972
+ASP 355.A N     GLY 488.E H     -0.273  2.898
+TYR 41.A CE2    TYR 484.E CB    -0.280  3.680
+TYR 41.A HE2    TYR 484.E CD2   -0.285  2.985
+ASN 330.A HD21  THR 486.E CA    -0.287  2.987
+LYS 353.A O     THR 487.E C     -0.289  3.469
+ARG 357.A NH1   THR 486.E CB    -0.289  3.614
+ASN 330.A ND2   THR 486.E C     -0.290  3.615
+PHE 28.A CA     TYR 475.E OH    -0.295  3.495
+BMA 1092.A H62  THR 402.E CG2   -0.301  3.001
+ARG 357.A HH12  THR 486.E CB    -0.303  3.003
+LYS 353.A CE    GLY 482.E O     -0.308  3.488
+GLY 354.A C     GLY 488.E HA3   -0.308  3.008
+TYR 83.A OH     TYR 475.E OH    -0.310  3.310
+LYS 353.A CA    TYR 491.E CE1   -0.310  3.710
+LYS 353.A HB2   THR 487.E CB    -0.312  3.012
+TYR 83.A OH     ASN 473.E OD1   -0.316  3.296
+TYR 41.A CE2    THR 487.E CG2   -0.317  3.717
+LYS 353.A CA    TYR 491.E CG    -0.317  3.717
+ASN 330.A ND2   THR 486.E HB    -0.320  2.945
+PHE 28.A HA     TYR 475.E OH    -0.320  2.820
+TYR 41.A CE2    THR 487.E HG22  -0.321  3.021
+LYS 31.A HG3    TYR 475.E CD2   -0.322  3.022
+LYS 353.A CD    THR 487.E HG22  -0.322  3.022
+LYS 353.A O     THR 487.E CA    -0.323  3.503
+LYS 353.A HB3   THR 487.E HG22  -0.326  2.326
+LYS 353.A HD2   TYR 491.E HD2   -0.327  2.327
+THR 27.A HG22   LEU 443.E CD2   -0.327  3.027
+LYS 353.A CB    THR 487.E CB    -0.329  3.729
+LYS 353.A O     TYR 491.E CD1   -0.329  3.509
+LYS 353.A C     TYR 491.E CE1   -0.334  3.734
+LYS 353.A HB2   TYR 491.E CG    -0.336  3.036
+GLN 42.A CD     TYR 436.E OH    -0.337  3.537
+LYS 353.A HB2   TYR 491.E CB    -0.337  3.037
+TYR 83.A CZ     ASN 473.E HD22  -0.343  3.043
+ASP 355.A N     GLY 488.E N     -0.344  3.594
+TYR 41.A OH     THR 486.E CB    -0.349  3.549
+GLY 354.A O     GLY 488.E HA3   -0.350  2.830
+ASP 38.A OD1    TYR 436.E CE2   -0.357  3.537
+GLY 354.A HA3   GLY 488.E HA3   -0.357  2.357
+GLU 37.A CD     TYR 491.E HH    -0.358  3.058
+LYS 353.A HA    TYR 491.E CG    -0.361  3.061
+HIS 34.A CB     ASN 479.E ND2   -0.361  3.686
+ASN 330.A ND2   THR 486.E CA    -0.365  3.690
+TYR 41.A OH     THR 486.E C     -0.365  3.565
+GLU 329.A OE1   ARG 426.E HH22  -0.367  2.847
+LYS 31.A CG     TYR 442.E OH    -0.369  3.569
+HOH 1582.A O    HOH 39.E O      -0.372  3.372
+PHE 28.A HB2    TYR 475.E OH    -0.374  2.874
+ASN 330.A HD21  THR 486.E HA    -0.381  2.381
+HIS 34.A ND1    ASN 479.E ND2   -0.385  3.635
+TYR 41.A CZ     THR 486.E HG1   -0.385  3.085
+ASP 355.A HB2   THR 487.E CA    -0.387  3.087
+ASP 38.A OD1    TYR 436.E CZ    -0.388  3.568
+LYS 31.A CG     TYR 475.E HD2   -0.389  3.089
+GLU 37.A OE1    TYR 491.E OH    -0.389  3.369
+LYS 31.A HE2    TYR 475.E CE2   -0.391  3.091
+HIS 34.A CE1    TYR 440.E OH    -0.393  3.593
+LEU 45.A CD1    TYR 484.E CD2   -0.398  3.798
+LEU 79.A HD13   LEU 472.E HD21  -0.398  2.398
+Model 0 (2ajf_rev.pdb) appears to be a protein without secondary structure assignments.
+Automatically computing assignments using 'ksdssp' and parameter values:
+  energy cutoff -0.5
+  minimum helix length 3
+  minimum strand length 3
+Use command 'help ksdssp' for more information.
+No SEQRES records for 2ajf_rev.pdb (#0) chain A; guessing terminii instead
+No SEQRES records for 2ajf_rev.pdb (#0) chain E; guessing terminii instead
+Chain-initial residues that are actual N terminii: SER 19.A, CYS 323.E
+Chain-initial residues that are not actual N terminii: 
+Chain-final residues that are actual C terminii: GLU 502.E
+Chain-final residues that are not actual C terminii: ASP 615.A
+774 hydrogen bonds
+Removing spurious proton from 'C' of ASP 615.A
+Hydrogens added
+
+Finding intermodel H-bonds
+Finding intramodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	#0 2ajf_rev.pdb
+
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+ASN 33.A ND2   HOH 1581.A O   ASN 33.A HD21   2.657  1.820
+LEU 144.A N    HOH 1559.A O   LEU 144.A H     3.003  2.047
+GLU 145.A N    HOH 1560.A O   GLU 145.A H     2.925  2.033
+SER 254.A N    HOH 1562.A O   SER 254.A H     2.756  1.849
+ASN 277.A N    HOH 1550.A O   ASN 277.A H     2.661  1.702
+THR 324.A N    HOH 1565.A O   THR 324.A H     2.743  1.769
+PHE 390.A N    HOH 1548.A O   PHE 390.A H     2.897  2.072
+GLU 402.A N    HOH 1558.A O   GLU 402.A H     3.004  2.058
+LYS 481.A NZ   HOH 1549.A O   LYS 481.A HZ2   3.025  2.106
+HIS 493.A N    HOH 1577.A O   HIS 493.A H     2.565  1.717
+PHE 603.A N    HOH 1573.A O   PHE 603.A H     2.725  1.734
+HOH 1547.A O   ALA 387.A O    HOH 1547.A H1   3.059  2.255
+HOH 1547.A O   GLN 388.A O    HOH 1547.A H2   3.360  2.605
+HOH 1549.A O   TRP 271.A O    HOH 1549.A H1   3.511  2.694
+HOH 1551.A O   GLY 272.A O    HOH 1551.A H2   2.401  1.633
+HOH 1551.A O   HOH 1552.A O   HOH 1551.A H1   2.801  2.000
+HOH 1552.A O   GLY 448.A O    HOH 1552.A H1   3.305  2.571
+HOH 1553.A O   ILE 484.A O    HOH 1553.A H1   2.699  1.742
+HOH 1554.A O   GLN 524.A O    HOH 1554.A H1   2.366  1.409
+HOH 1555.A O   ASP 350.A OD1  HOH 1555.A H1   3.232  2.275
+HOH 1556.A O   ASP 350.A OD2  HOH 1556.A H1   2.863  2.006
+HOH 1556.A O   ASP 382.A O    HOH 1556.A H2   3.210  2.340
+HOH 1557.A O   TYR 381.A OH   HOH 1557.A H2   2.877  1.935
+HOH 1557.A O   MET 557.A O    HOH 1557.A H1   2.537  1.824
+HOH 1558.A O   GLU 398.A O    HOH 1558.A H1   2.690  1.733
+HOH 1559.A O   GLY 130.A O    HOH 1559.A H1   2.621  1.664
+HOH 1562.A O   ILE 256.A O    HOH 1562.A H1   3.624  2.681
+HOH 1563.A O   SER 257.A O    HOH 1563.A H1   2.586  1.629
+HOH 1564.A O   THR 324.A OG1  HOH 1564.A H2   2.611  1.735
+HOH 1564.A O   GLY 354.A O    HOH 1564.A H1   2.783  1.867
+HOH 1566.A O   GLU 375.A OE2  HOH 1566.A H1   2.615  1.768
+HOH 1567.A O   GLU 375.A OE1  HOH 1567.A H1   3.302  2.345
+HOH 1568.A O   HOH 1569.A O   HOH 1568.A H1   2.909  1.952
+HOH 1570.A O   GLU 435.A OE1  HOH 1570.A H1   2.292  1.334
+HOH 1571.A O   PRO 284.A O    HOH 1571.A H1   3.013  2.056
+HOH 1572.A O   ALA 242.A O    HOH 1572.A H1   2.586  1.731
+HOH 1572.A O   PHE 603.A O    HOH 1572.A H2   3.553  2.617
+HOH 1573.A O   PRO 258.A O    HOH 1573.A H1   3.051  2.094
+HOH 1574.A O   GLU 238.A OE1  HOH 1574.A H1   2.706  1.955
+HOH 1574.A O   HOH 1575.A O   HOH 1574.A H2   3.121  2.411
+HOH 1575.A O   TRP 606.A O    HOH 1575.A H1   3.629  2.672
+HOH 1578.A O   HOH 1579.A O   HOH 1578.A H1   2.540  1.583
+HOH 1580.A O   GLN 524.A OE1  HOH 1580.A H2   3.259  2.324
+HOH 1580.A O   ASN 580.A OD1  HOH 1580.A H1   3.489  2.564
+HOH 1582.A O   ASP 30.A OD2   HOH 1582.A H1   3.346  2.389
+HOH 1.E O      ASP 393.E OD2  HOH 1.E H1      3.192  2.235
+HOH 36.E O     GLY 391.E O    HOH 36.E H1     2.555  1.598
+HOH 39.E O     HOH 40.E O     HOH 39.E H2     2.727  1.793
+HOH 39.E O     TYR 442.E O    HOH 39.E H1     3.217  2.385
+ARG 395.E N    HOH 36.E O     ARG 395.E H     2.706  1.709
+ARG 426.E NH2  GLU 329.A OE2  ARG 426.E HH22  2.946  2.148
+TYR 436.E OH   ASP 38.A OD2   TYR 436.E HH    3.016  2.104
+THR 486.E OG1  TYR 41.A OH    THR 486.E HG1   2.828  1.921
+GLY 488.E N    LYS 353.A O    GLY 488.E H     2.549  1.586
+TYR 491.E OH   GLU 37.A OE1   TYR 491.E HH    3.369  2.536
+55 hydrogen bonds found
+

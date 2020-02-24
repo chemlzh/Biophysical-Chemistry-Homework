@@ -1,0 +1,1 @@
+下载并练习使用分子显示软件，如PYMOL，Rasmol (Raswin for Windows)。从Protein Data Bank (http://www.rcsb.org/)中下载SARS-CoV spike protein RBP-ACE2 complex structure (PDB code: 2AJF)，观察S蛋白与ACE2的结合方式，分析S蛋白在结合界面上的关键残基及其与ACE2上残基的作用情况。有兴趣者也可以查找PDB中收录的所有Coronavirus spike protein的结构，了解全长S蛋白质的结构。
