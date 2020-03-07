@@ -1,0 +1,74 @@
+Number of amino acids: 16
+
+Molecular weight: 1840.23
+
+Theoretical pI: 6.29
+
+Amino acid composition: 
+Ala (A)   0	  0.0%
+Arg (R)   0	  0.0%
+Asn (N)   0	  0.0%
+Asp (D)   0	  0.0%
+Cys (C)   0	  0.0%
+Gln (Q)   0	  0.0%
+Glu (E)   4	 25.0%
+Gly (G)   2	 12.5%
+His (H)   0	  0.0%
+Ile (I)   0	  0.0%
+Leu (L)   6	 37.5%
+Lys (K)   4	 25.0%
+Met (M)   0	  0.0%
+Phe (F)   0	  0.0%
+Pro (P)   0	  0.0%
+Ser (S)   0	  0.0%
+Thr (T)   0	  0.0%
+Trp (W)   0	  0.0%
+Tyr (Y)   0	  0.0%
+Val (V)   0	  0.0%
+Pyl (O)   0	  0.0%
+Sec (U)   0	  0.0%
+
+ (B)   0	  0.0%
+ (Z)   0	  0.0%
+ (X)   0	  0.0%
+
+
+Total number of negatively charged residues (Asp + Glu): 4
+Total number of positively charged residues (Arg + Lys): 4
+
+Atomic composition:
+
+Carbon      C	        84
+Hydrogen    H	       150
+Nitrogen    N	        20
+Oxygen      O	        25
+Sulfur      S	         0
+
+Formula: C84H150N20O25
+Total number of atoms: 279
+
+Extinction coefficients:
+
+As there are no Trp, Tyr or Cys in the region considered, your protein
+should not be visible by UV spectrophotometry.
+
+
+Estimated half-life:
+
+The N-terminal of the sequence considered is G (Gly).
+
+The estimated half-life is: 30 hours (mammalian reticulocytes, in vitro).
+                            >20 hours (yeast, in vivo).
+                            >10 hours (Escherichia coli, in vivo).
+
+
+Instability index:
+
+The instability index (II) is computed to be -11.85
+This classifies the protein as stable.
+
+
+
+Aliphatic index: 146.25
+
+Grand average of hydropathicity (GRAVY): -0.475
