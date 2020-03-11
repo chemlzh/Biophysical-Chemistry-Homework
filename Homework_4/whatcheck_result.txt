@@ -1,0 +1,617 @@
+1. Error: Missing unit cell information Error
+
+No SCALE matrix is given in the PDB file.
+ 
+2. Error: Missing symmetry information Error
+
+Problem: No CRYST1 card is given in the PDB file.
+ 
+3. Note: No rounded coordinates detected Pass
+
+No significant rounding of atom coordinates has been detected.
+ 
+4. Note: Valine nomenclature OK Pass
+
+No errors were detected in valine nomenclature.
+ 
+5. Note: Threonine nomenclature OK Pass
+
+No errors were detected in threonine nomenclature.
+ 
+6. Note: Isoleucine nomenclature OK Pass
+
+No errors were detected in isoleucine nomenclature.
+ 
+7. Note: Leucine nomenclature OK Pass
+
+No errors were detected in leucine nomenclature.
+ 
+8. Warning: Arginine nomenclature problem Warning
+
+The arginine residues listed in the table below have their N-H-1
+and N-H-2 swapped.
+ 
+ 186 ARG  (188 ) A
+ 
+9. Warning: Tyrosine convention problem Warning
+
+The tyrosine residues listed in the table below have their chi-2
+not between -90.0 and 90.0
+ 
+  35 TYR  (37  ) A
+  52 TYR  (54  ) A
+  99 TYR  (101 ) A
+ 116 TYR  (118 ) A
+ 124 TYR  (126 ) A
+ 207 TYR  (209 ) A
+ 235 TYR  (237 ) A
+ 
+10. Warning: Phenylalanine convention problem Warning
+
+The phenylalanine residues listed in the table below have their
+chi-2 not between -90.0 and 90.0.
+ 
+ 110 PHE  (112 ) A
+ 138 PHE  (140 ) A
+ 148 PHE  (150 ) A
+ 292 PHE  (294 ) A
+ 
+11. Warning: Aspartic acid convention problem Warning
+
+The aspartic acid residues listed in the table below have their
+chi-2 not between -90.0 and 90.0.
+ 
+  32 ASP  (34  ) A
+ 153 ASP  (155 ) A
+ 
+12. Warning: Glutamic acid convention problem Warning
+
+The glutamic acid residues listed in the table below have their
+chi-3 outside the -90.0 to 90.0 range.
+ 
+  45 GLU  (47  ) A
+ 176 GLU  (178 ) A
+ 286 GLU  (288 ) A
+ 
+13. Note: L or D conformation checked OK Pass
+
+All amino acids in the structure have the L conformation.
+ 
+14. Note: Chain names are unique Pass
+
+All chain names assigned to polymer molecules are unique.
+ 
+15. Note: Weights checked OK Pass
+
+All atomic occupancy factors ('weights') fall in the 0.0--1.0 range.
+ 
+16. Note: No missing atoms detected Pass
+
+All expected atoms are present.
+ 
+17. Note: All bond lengths OK Pass
+
+All bond lengths are in agreement with standard bond lengths using
+a tolerance of 4 sigma (both standard values and sigma for amino acid
+residues have been taken from Engh and Huber [REF])
+ 
+18. Note: Normal bond length variability Pass
+
+Bond lengths were found to deviate normally from the standard bond
+lengths (values for Protein residues were taken from Engh and Huber
+[REF]).
+ 
+ Z-score for bond lengths: 0.669
+ RMS-deviation in bond distances: 0.015
+ 
+19. Warning: Directionality in bond lengths Warning
+
+Comparison of bond distances with Engh and Huber [REF] standard
+values shows a significant systematic deviation. The bonds in one
+direction are systematically longer than in other directions.
+
+If this is not an XRAY structure this effect is hard to explain.
+Otherwise you will have seen symmetry problems earlier. Please
+correct these and rerun this check to see the implications on the
+cell axes.
+ 
+20. Warning: Unusual bond angles Warning
+
+The bond angles listed in the table below were found to deviate
+more than 4 sigma from standard bond angles (both standard values
+and sigma have been taken from Engh and Huber [REF]).  In the table
+below for each strange angle the bond angle and the number of
+standard deviations it differs from the Engh and Huber values is
+given. Please note that only bond angles within protein residues
+are taken into account: disulphide bridges and peptide bonds are
+neglected.
+ 
+   6 PHE  (8   ) A CA   CB   CG   109.204  -4.6
+  31 ASP  (33  ) A CA   CB   CG   108.430  -4.2
+  39 HIS  (41  ) A CD2  CG   ND1  110.610   4.5
+  46 ASP  (48  ) A CA   CB   CG   117.276   4.7
+  70 ASN  (72  ) A CA   CB   CG   117.595   5.0
+  90 ASP  (92  ) A CA   CB   CG   119.479   6.9
+ 111 SER  (113 ) A C    CA   CB   101.317  -4.6
+ 161 HIS  (163 ) A CD2  CG   ND1  110.879   4.8
+ 162 HIS  (164 ) A CD2  CG   ND1  110.333   4.2
+ 170 HIS  (172 ) A CA   CB   CG   109.248  -4.6
+ 170 HIS  (172 ) A CD2  CG   ND1  110.453   4.4
+ 185 ASP  (187 ) A CA   CB   CG   116.787   4.2
+ 233 MET  (235 ) A CG   SD   CE    84.896  -7.3
+ 287 ASP  (289 ) A CA   CB   CG   119.282   6.7
+ 
+21. Note: Normal bond angle variability Pass
+
+Bond angles were found to deviate normally from the mean Engh and
+Huber [REF] standard bond angles. The RMS Z-score given below is
+expected to be around 1.0 for a normally restrained data set, and
+this is indeed observed for very high resolution X-ray structures.
+More common values are around 1.55
+ 
+ Z-score for bond angles: 1.140
+ RMS-deviation in bond angles: 2.107
+ 
+22. Error: Side chain planarity problems Error
+
+The side chains of the residues listed in the table below contain a
+planar group that was found to deviate from planarity by more than
+4.0 times the expected value.  For an amino acid residue that has a
+side chain with a planar group, the RMS deviation of the atoms to a
+least squares plane was determined. The number in the table is the
+number of standard deviations this RMS value deviates from the
+expected value (0.0).
+ 
+  90 ASP  (92  ) A   4.886
+ 
+23. Note: Atoms connected to aromatic rings OK Pass
+
+All of the atoms that are connected to planar aromatic rings in side
+chains of amino-acid residues are in the plane within expected RMS
+deviations.
+ 
+24. Note: PRO puckering amplitude OK Pass
+
+Puckering amplitudes for all PRO residues are within normal ranges.
+ 
+25. Note: PRO puckering phases OK Pass
+
+Puckering phases for all PRO residues are normal
+ 
+26. Warning: Torsion angle evaluation shows unusual residues Warning
+
+The residues listed in the table below contain bad or abnormal
+torsion angles.
+
+These scores give an impression of how ``normal'' the torsion
+angles in protein residues are. All torsion angles except omega are
+used for calculating a `normality' score. Average values and
+standard deviations were obtained from the residues in the WHAT IF
+database. These are used to calculate Z-scores.  A residue with a
+Z-score of below -2.0 is poor, and a score of less than -3.0 is
+worrying.  For such residues more than one torsion angle is in a
+highly unlikely position.
+ 
+ 152 TYR  (154 ) A -2.8555
+ 182 PRO  (184 ) A -2.5876
+ 186 ARG  (188 ) A -2.0958
+  25 LEU  (27  ) A -2.0908
+ 137 SER  (139 ) A -2.0475
+ 
+27. Warning: Backbone torsion angle evaluation shows unusual conformations Warning
+
+The residues listed in the table below have abnormal backbone torsion
+angles.
+
+Residues with ``forbidden'' phi-psi combinations are listed, as
+well as residues with unusual omega angles (deviating by more than
+3 sigma from the normal value). Please note that it is normal if
+about 5 percent of the residues is listed here as having unusual
+phi-psi combinations.
+ 
+   5 ALA  (7   ) A omega poor
+   7 PRO  (9   ) A omega poor
+  31 ASP  (33  ) A Poor phi/psi
+  45 GLU  (47  ) A omega poor
+  46 ASP  (48  ) A omega poor
+  50 PRO  (52  ) A omega poor
+  82 ASN  (84  ) A Poor phi/psi
+  84 VAL  (86  ) A omega poor
+  97 PRO  (99  ) A omega poor
+ 105 GLN  (107 ) A PRO omega poor
+ 127 ALA  (129 ) A omega poor
+ 132 PHE  (134 ) A Poor phi/psi
+ 153 ASP  (155 ) A Poor phi/psi
+ 158 CYS  (160 ) A Poor phi/psi
+ 159 TYR  (161 ) A omega poor
+ 173 THR  (175 ) A omega poor
+ 179 PHE  (181 ) A omega poor
+ 182 PRO  (184 ) A Poor PRO-phi
+ 212 ASN  (214 ) A omega poor
+ 236 ASN  (238 ) A Poor phi/psi
+ 280 LEU  (282 ) A Poor phi/psi
+ 
+28. Note: Ramachandran Z-score OK Pass
+
+The score expressing how well the backbone conformations of all residues
+are corresponding to the known allowed areas in the Ramachandran plot is
+within expected ranges for well-refined structures.
+ 
+ Ramachandran Z-score : -0.782
+ 
+29. Warning: Omega angle restraints not strong enough Warning
+
+The omega angles for trans-peptide bonds in a structure is
+expected to give a gaussian distribution with the average around
++178 degrees, and a standard deviation around 5.5. In the current
+structure the standard deviation of this distribution is above 7.0,
+which indicates that the omega values have been under-constrained.
+ 
+ Standard deviation of omega values : 7.149
+ 
+30. Note: chi-1/chi-2 angle correlation Z-score OK Pass
+
+The score expressing how well the chi-1/chi-2 angles of all residues
+are corresponding to the populated areas in the database is
+within expected ranges for well-refined structures.
+ 
+ chi-1/chi-2 correlation Z-score : -1.151
+ 
+31. Note: Ramachandran plot Pass
+
+In this Ramachandran plot large crosses represent glycines and
+small crosses represent the other residues. If too many small crosses
+fall outside the boxed areas then the molecule is poorly refined (or
+worse).
+ 
+In the TeX file, a plot has been inserted here
+ 
+ Chain identifier: A
+ 
+32. Note: Secondary structure Pass
+
+This is the secondary structure according to DSSP. Only helix (H), strand
+(S), turn (T) and coil (blank) are shown. [REF]
+ 
+ Secondary structure assignment
+The DSSP executable was not found
+/software/what/whattest/dssp/DSSP.EXE
+WARNING. You don`t have the DSSP program installed. Therefore
+the emulator will be used. This emulator gives rather poor results,
+but it prevents WHAT IF from crashing. See the writeup about this.
+                     10        20        30        40        50        60
+                      |         |         |         |         |         |
+    1 -  60  FRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKS
+    1 -  60         HH 33H3TSSSST  T SSSS T  TSSST3333TT  3  T THH HHH T3
+                     70        80        90       100       110       120
+                      |         |         |         |         |         |
+   61 - 120  NHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSP
+   61 - 120  3 3TSSST  T      SS T  TSSSS    T  T SSSSS  T TT SSSSS TTTT
+                    130       140       150       160       170       180
+                      |         |         |         |         |         |
+  121 - 180  SGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFY
+  121 - 180   SSSSS  T  T S    T T3 TT SSS TTTTSSS SS  S T  T SSSST  T
+                    190       200       210       220       230       240
+                      |         |         |         |         |         |
+  181 - 240  GPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPL
+  181 - 240                  STHHHHHHHHHHHHHHT 3  T     THHHHHH3333TTSS
+                    250       260       270       280       290
+                      |         |         |         |         |
+  241 - 299  TQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCS
+  241 - 299  THHHHHHHHHHHHHHT THHHHHHHHHHHHHH 3TTT TTTT       THHHHHHHHH
+ 
+ 
+ 
+ 
+33. Error: Abnormally short interatomic distances Error
+
+The pairs of atoms listed in the table below have an unusually
+short distance.
+
+The contact distances of all atom pairs have been checked. Two
+atoms are said to `bump' if they are closer than the sum of their
+Van der Waals radii minus 0.40 Angstrom. For hydrogen bonded pairs
+a tolerance of 0.55 Angstrom is used.  The first number in the
+table tells you how much shorter that specific contact is than the
+acceptable limit. The second distance is the distance between the
+centers of the two atoms.
+
+The last text-item on each line represents the status of the atom
+pair.  The text `INTRA' means that the bump is between atoms that
+are explicitly listed in the PDB file. `INTER' means it is an
+inter-symmetry bump. If a line contains the text 'HB', the bump
+criterium was relaxed because there could be a hydrogen bond. If
+the text 'BF' is present, the sum of the B-factors of the atoms is
+higher than 80, which makes the appearance of the bump somewhat
+less severe because the atoms probably aren't there anyway.
+
+Bumps between atoms for which the sum of their occupancies is lower
+than one are not reported. In any case, each bump is listed in only
+one direction.
+ 
+  42 CYS  (44  ) A SG    --   52 TYR  (54  ) A CE1     0.101   3.299 INTRA
+  10 LYS  (12  ) A NZ    --  153 ASP  (155 ) A OD1     0.000   2.550 INTRA HB
+ 
+34. Warning: Abnormal packing environment for some residues Warning
+
+The residues listed in the table below have an unusual packing
+environment.
+
+The packing environment of the residues is compared with the
+average packing environment for all residues of the same type in
+good PDB files.  A low packing score can indicate one of several
+things: Poor packing, misthreading of the sequence through the
+density, crystal contacts, contacts with a co-factor, or the
+residue is part of the active site. It is not uncommon to see a few
+of these, but in any case this requires further inspection of the
+residue.
+ 
+ 152 TYR  (154 ) A  -7.77
+ 220 ARG  (222 ) A  -6.95
+ 254 GLN  (256 ) A  -5.51
+  95 LYS  (97  ) A  -5.50
+ 271 GLN  (273 ) A  -5.43
+ 139 LEU  (141 ) A  -5.40
+ 272 ASN  (274 ) A  -5.39
+ 103 ARG  (105 ) A  -5.31
+ 212 ASN  (214 ) A  -5.19
+ 135 LYS  (137 ) A  -5.11
+ 105 GLN  (107 ) A  -5.04
+ 187 GLN  (189 ) A  -5.03
+  63 ASN  (65  ) A  -5.03
+ 140 ASN  (142 ) A  -5.03
+ 221 PHE  (223 ) A  -5.01
+ 
+35. Note: No series of residues with bad packing environment Pass
+
+There are no stretches of three or more residues each having a quality
+control score worse than -4.0.
+ 
+36. Note: Structural average packing environment OK Pass
+
+The structural average quality control value is within normal ranges.
+ 
+ 
+Average for range    1 - 299 :  -0.890
+ 
+37. Note: Backbone oxygen evaluation OK Pass
+
+All residues for which the local backbone conformation could be
+found in the WHAT IF database have a normal backbone oxygen
+position.
+ 
+38. Note: Rotamers checked OK Pass
+
+None of the residues that have a normal backbone environment have
+abnormal rotamers.
+ 
+39. Warning: Unusual backbone conformations Warning
+
+For the residues listed in the table below, the backbone formed by
+itself and two neighboring residues on either side is in a
+conformation that is not seen very often in the database of solved
+protein structures.  The number given in the table is the number of
+similar backbone conformations in the database with the same amino
+acid in the center.
+
+For this check, backbone conformations are compared with database
+structures using C-alpha superpositions with some restraints on the
+backbone oxygen positions.
+
+A residue mentioned in the table can be part of a strange loop, or
+there might be something wrong with it or its directly surrounding
+residues. There are a few of these in every protein, but in any
+case it is worth looking at!
+ 
+   3 LYS  (5   ) A  0
+   4 MET  (6   ) A  0
+   5 ALA  (7   ) A  0
+   6 PHE  (8   ) A  0
+   7 PRO  (9   ) A  0
+   8 SER  (10  ) A  0
+   9 GLY  (11  ) A  0
+  10 LYS  (12  ) A  0
+  11 VAL  (13  ) A  0
+  12 GLU  (14  ) A  0
+  13 GLY  (15  ) A  0
+  14 CYS  (16  ) A  0
+  15 MET  (17  ) A  0
+  16 VAL  (18  ) A  0
+  17 GLN  (19  ) A  0
+  18 VAL  (20  ) A  0
+  19 THR  (21  ) A  0
+  20 CYS  (22  ) A  0
+  21 GLY  (23  ) A  0
+  22 THR  (24  ) A  0
+  23 THR  (25  ) A  0
+  24 THR  (26  ) A  0
+  25 LEU  (27  ) A  0
+  26 ASN  (28  ) A  0
+  27 GLY  (29  ) A  0
+And so on for a total of   295 lines
+ 
+40. Error: Backbone conformation Z-score very low Error
+
+A comparison of the backbone conformation with database proteins
+shows that the backbone fold in this structure is very unusual.
+ 
+ Backbone conformation Z-score : -26.447
+ 
+41. Note: Symmetry related water molecules check not performed Pass
+
+Since there is no symmetry, the position check for symmetry related
+water molecules can not be performed
+ 
+42. Error: Average B-factor error Error
+
+The average B-factor for all buried protein atoms normally lies between
+10--20. Values around 3--5 are expected for X-ray studies performed
+at liquid nitrogen temperature.
+
+Because of the extreme value for the average B-factor, no further analysis
+of the B-factors is performed.
+ 
+Average B-factor for buried atoms :  0.935
+ 
+43. Error: HIS, ASN, GLN side chain flips Error
+
+Listed here are Histidine, Asparagine or Glutamine residues for which
+the assignment or orientation determined from hydrogen bonding analysis
+are different from the assignment given in the input. Either they could
+form energetically more favorable hydrogen bonds if the terminal group
+was rotated by 180 degrees, or there is no assignment in the input
+file (atom type 'A') but an assignment could be made.
+ 
+  70 ASN  (72  ) A
+ 178 ASN  (180 ) A
+ 212 ASN  (214 ) A
+ 244 HIS  (246 ) A
+ 
+44. Note: Histidine type assignments Pass
+
+For all complete HIS residues in the structure a tentative
+assignment to HIS-D (protonated on ND1), HIS-E (protonated on NE2),
+or HIS-H (protonated on both ND1 and NE2, positively charged) is
+made based on the hydrogen bond network.  A second assignment is
+made based on which of the Engh and Huber [REF] histidine
+geometries fits best to the structure.
+
+In the table below all normal histidine residues are listed. The
+assignment based on the geometry of the residue is listed first,
+together with the RMS Z-score for the fit to the Engh and Huber
+parameters.  For all residues where the H-bond assignment is
+different, the assignment is listed in the last columns, together
+with its RMS Z-score to the Engh and Huber parameters.
+
+As always, the RMS Z-scores should be close to 1.0 if the residues
+were restrained to the Engh and Huber parameters during refinement.
+
+Please note that because the differences between the geometries of
+the different types are small it is possible that the geometric
+assignment given here does not correspond to the type used in
+refinement.  This is especially true if the Z-scores are much higher
+than 1.0.
+
+If the two assignments differ, or the ``geometry'' Z-score is high,
+it is advisable to verify the hydrogen bond assignment, check the
+HIS type used during the refinement and possibly adjust it.
+ 
+  39 HIS  (41  ) A HIS-E   0.30
+  62 HIS  (64  ) A HIS-E   0.47 HIS-D   1.49
+  78 HIS  (80  ) A HIS-E   0.40 HIS-D   1.43
+ 161 HIS  (163 ) A HIS-E   0.45
+ 162 HIS  (164 ) A HIS-E   0.36 HIS-H   1.65
+ 170 HIS  (172 ) A HIS-E   0.51
+ 244 HIS  (246 ) A HIS-E   0.31
+ 
+45. Warning: Buried unsatisfied hydrogen bond donors Warning
+
+The buried hydrogen bond donors listed in the table below have a
+hydrogen atom that is not involved in a hydrogen bond in the
+optimized hydrogen bond network.
+
+Hydrogen bond donors that are buried inside the protein normally
+use all of their hydrogens to form hydrogen bonds within the
+protein. If there are any non hydrogen bonded buried hydrogen bond
+donors in the structure they will be listed here. In very good
+structures the number of listed atoms will tend to zero.
+ 
+  39 HIS  (41  ) A N
+  47 MET  (49  ) A N
+  48 LEU  (50  ) A N
+  58 ARG  (60  ) A N
+  66 VAL  (68  ) A N
+  91 THR  (93  ) A N
+ 124 TYR  (126 ) A OH
+ 143 CYS  (145 ) A N
+ 146 VAL  (148 ) A N
+ 150 ILE  (152 ) A N
+ 169 VAL  (171 ) A N
+ 172 GLY  (174 ) A N
+ 196 THR  (198 ) A N
+ 217 PHE  (219 ) A N
+ 261 ASP  (263 ) A N
+ 286 GLU  (288 ) A N
+ 289 PHE  (291 ) A N
+ 290 THR  (292 ) A OG1
+ 
+46. Note: Buried hydrogen bond acceptors OK Pass
+
+All buried polar side-chain hydrogen bond acceptors are involved in a
+hydrogen bond in the optimized hydrogen bond network.
+ 
+47. Note: Overall summary report Pass
+
+This is an attempt to create an overall summary of the quality of the
+structure. We do not recommend anyone to look at these numbers, please
+look at the complete report instead.
+ 
+ Structure Z-scores, positive is better than average:
+  1st generation packing quality :  -0.975
+  Ramachandran plot appearance   :  -0.782
+  chi-1/chi-2 rotamer normality  :  -1.151
+  Backbone conformation          : -26.447 (bad)
+ 
+ RMS Z-scores, should be close to 1.0:
+  Bond lengths                   :   0.669
+  Bond angles                    :   1.140
+  Omega angle restraints         :   1.300 (loose)
+  Side chain planarity           :   1.151
+
+REFERENCES
+==========
+
+WHAT IF
+    G.Vriend,
+      WHAT IF: a molecular modelling and drug design program,
+    J. Mol. Graph. 8, 52--56 (1990).
+
+WHAT_CHECK (verification routines from WHAT IF)
+    R.W.W.Hooft, G.Vriend, C.Sander and E.E.Abola,
+      Errors in protein structures
+    Nature 381, 272 (1996).
+
+Bond lengths and angles
+    R.Engh and R.Huber,
+      Accurate bond and angle parameters for X-ray protein structure
+      refinement,
+    Acta Crystallogr. A47, 392--400 (1991).
+
+DSSP
+    W.Kabsch and C.Sander,
+      Dictionary of protein secondary structure: pattern
+      recognition of hydrogen bond and geometrical features
+    Biopolymers 22, 2577--2637 (1983).
+
+Hydrogen bond networks
+    R.W.W.Hooft, C.Sander and G.Vriend,
+      Positioning hydrogen atoms by optimizing hydrogen bond networks in
+      protein structures
+    To be published.
+
+Matthews' Coefficient
+    B.W.Matthews
+      Solvent content of Protein Crystals
+    J. Mol. Biol. 33, 491--497 (1968).
+
+Puckering parameters
+    D.Cremer and J.A.Pople,
+      A general definition of ring puckering coordinates
+    J. Am. Chem. Soc. 97, 1354--1358 (1975).
+
+Quality Control
+    G.Vriend and C.Sander,
+      Quality control of protein models: directional atomic
+      contact analysis,
+    J. Appl. Cryst. 26, 47--60 (1993).
+
+Ramachandran plot
+    G.N.Ramachandran, C.Ramakrishnan and V.Sasisekharan,
+      Stereochemistry of Polypeptide Chain Conformations
+    J. Mol. Biol. 7, 95--99 (1963).
+
+Symmetry Checks
+    R.W.W.Hooft, C.Sander and G.Vriend,
+      Reconstruction of symmetry related molecules from protein
+      data bank (PDB) files
+    J. Appl. Cryst. 27, 1006--1009 (1994).
