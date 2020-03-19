@@ -1,0 +1,12 @@
+receptor = receptor_revised.pdbqt
+ligand = oseltamivir.pdbqt
+center_x = 25.75
+center_y = -19.0
+center_z = -21.5
+size_x = 50
+size_y = 50
+size_z = 50
+out = vina_result.pdbqt
+exhaustiveness=15
+num_modes=25
+energy_range=6

@@ -1,0 +1,9 @@
+1. 决定配体与靶标作用强弱的主要是共价键还是非共价键？主要包括哪些相互作用？
+
+2. 如何根据靶标的结构发现新的先导化合物？
+
+3. 先导化合物发现的虚拟筛选(VS)和实验高通量筛选(HTS)方法各有什么优缺点？
+
+4. Oseltamivir与N8 neuraminidase的复合物晶体结构已经解出（PDB ID: 2HT8），请分析Oseltamivir与N8 neuraminidase的作用方式。
+
+选做：选用一个分子对接软件或在线计算服务器，将Oseltamivir从复合物中拆出来后重新用软件与N8 neuraminidase进行对接，对接计算后可以很好地再现其在原晶体结构中的取向吗？将Oseltamivir中六员环上的-NH2替换为-OH，重新做对接计算，比较计算得到的这两个分子与N8 neuraminidase的结合能。
